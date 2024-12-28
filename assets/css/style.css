@@ -617,6 +617,8 @@
    * skills 
    */
   
+  .skill { margin-bottom: 30px; }
+
   .skills-title { margin-bottom: 20px; }
   
   .skills-list { padding: 20px; }
@@ -650,9 +652,7 @@
     border-radius: inherit;
   }
   
-  
-  
-  
+
   
   /*-----------------------------------*\
     #PORTFOLIO
