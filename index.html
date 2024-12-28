@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/portfolio-icon.png" type="image/x-icon">
+
+  <!--
+    - css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/profile.png" alt="Christophe Cai" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name">Christophe Cai</h1>
+
+          <p class="title">Game and Simulation Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:christophe.ccai@gmail.com" class="contact-link">christophe.ccai@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:0652297518" class="contact-link">06 52 29 75 18</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">LinkedIn</p>
+
+              <a href="https://www.linkedin.com/in/christophe-cai/" class="contact-link">christophe-cai</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Île-de-France, France</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I am a final-year engineering student specializing in Visual Computing, 
+            with a strong passion for Game Development, 3D Simulation, and Virtual Reality (VR).
+          </p>
+
+          <p>
+            I have developed skills in programming (C#, C++, Java) and in using game engines such as Unreal Engine and Unity. 
+            I am currently looking for an internship opportunity 
+            where I can contribute to innovative and immersive projects, further enhancing my expertise in the field.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/game-icon.png" alt="game controller icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game Development</h4>
+
+                <p class="service-item-text">
+                  Designing and developing immersive games in Unity on Mobile and PC.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/simulation-icon.png" alt="virtual reality icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">3D Simulation</h4>
+
+                <p class="service-item-text">
+                  Creating realistic and fantastic environments to simulate real-world scenarios.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/web-icon.png" alt="web icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Development</h4>
+
+                <p class="service-item-text">
+                  Creating visually appealing and user-friendly websites.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        
+        <section class="service">
+
+          <h3 class="h3 service-title">What I'm currently learning</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Unreal-Engine-icon.png" alt="Unreal Engine icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Unreal Engine</h4>
+
+                <p class="service-item-text">
+
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/Blender-icon.png" alt="Blender icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Blender</h4>
+
+                <p class="service-item-text">
+
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/AI-icon.png" alt="AI icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI</h4>
+
+                <p class="service-item-text">
+
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lycée Germaine Tillion</h4>
+
+              <span>2017 — 2020</span>
+
+              <p class="timeline-text">
+                French Baccalaureate (Sciences - Specializing in mathematics) - With Highest Honors
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lycée Fénelon / Lycée Condorcet</h4>
+
+              <span>2020-2022</span>
+
+              <p class="timeline-text">
+                Preparatory Classes for Engineering Schools
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CY Tech</h4>
+
+              <span>2022 — Present</span>
+
+              <p class="timeline-text">
+                Master's Degree in Engineering (Specializing in Visual Computing)
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Full Stack Developer (Internship)</h4>
+
+              <span>06/2023 — 08/2023</span>
+
+              <p class="timeline-text">
+                  Correction of frontend and backend issues.<br>
+                  Testing session of the web and mobile application.<br>
+                  Redesign of application icons.<br>
+                  Refactoring of all tables and filters in the application.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Game Development (Unity, C#)</h5>
+                <data value="95">95%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 95%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development (HTML, PHP, CSS, JS)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming languages (Java, C, Python)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile application (Android Studio, Kotlin)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Simulation (Unreal Engine, C++)</h5>
+                <data value="30">30%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 30%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Art Design (Blender)</h5>
+                <data value="20">20%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 20%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Game</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Simulation</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Model/Art</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web Development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Game</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Simulation</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Model/Art</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <!-- 
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="E-Shop" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Food E-Shop</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+          -->
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d70622.84003110399!2d2.3494719416264753!3d48.86703880070979!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1735393536520!5m2!1sfr!2sfr" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper split">
+              <input type="text" id="name" class="form-input" placeholder="Full name/Company name" required data-form-input>
+
+              <input type="email" id="email" class="form-input" placeholder="Email address (Gmail*)" required data-form-input>
+            </div>
+            
+            <div class="input-wrapper">
+              <input type="text" id="subject" class="form-input" placeholder="Subject" required data-form-input>
+            </div>
+
+            <textarea id="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <div class="contact-info">
+              <p class="hint">*No confirmation email will be sent to email other than Gmail.</p>
+            </div>
+            
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - js script
+  -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "lRh5Ps8N5rY8KlMOO",
+      });
+    })();
+  </script>
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
