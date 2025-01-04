@@ -156,11 +156,10 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // navigation to project
 function loadProject(fileName) {
-  console.log("test");
   const container = document.getElementById("project");
 
   const xhr = new XMLHttpRequest();
-  xhr.open("GET", "Portfolio/assets/projects/" + fileName + "/" + fileName + ".html", true);
+  xhr.open("GET", "assets/projects/" + fileName + "/" + fileName + ".html", true);
 
   xhr.onreadystatechange = function() {
     if (xhr.readyState == 4 && xhr.status == 200) {
