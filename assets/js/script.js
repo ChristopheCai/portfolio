@@ -142,6 +142,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     for (let i = 0; i < pages.length; i++) {
       if (this.innerHTML.toLowerCase() === pages[i].dataset.page) {
+        console.log(this.innerHTML);
         pages[i].classList.add("active");
         navigationLinks[i].classList.add("active");
         window.scrollTo(0, 0);
@@ -152,4 +153,24 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
 
   });
+}
+
+// navigation to project
+function loadProject(fileName) {
+  const container = document.getElementById("project");
+
+  const xhr = new XMLHttpRequest();
+  xhr.open("GET", "../assets/projects/" + fileName + "/" + fileName + ".html", true);
+
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState == 4 && xhr.status == 200) {
+      container.innerHTML = xhr.responseText;
+      for (let i = 0; i < pages.length; i++) {
+        pages[i].classList.remove("active");
+      }
+      container.classList.add("active");
+    }
+  };
+
+  xhr.send();
 }

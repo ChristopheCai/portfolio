@@ -110,6 +110,20 @@
           <li class="contact-item">
 
             <div class="icon-box">
+              <img src="assets/images/itchio-icon.png" alt="Itch.io Icon">
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Itch.io</p>
+
+              <a href="https://christophecai.itch.io/" class="contact-link">ChristopheCai</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
               <ion-icon name="location-outline"></ion-icon>
             </div>
 
@@ -431,6 +445,19 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
+                <h5 class="h5">Simulation (Unreal Engine, C++)</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+            
+            <li class="skills-item">
+
+              <div class="title-wrapper">
                 <h5 class="h5">Web Development (HTML, PHP, CSS, JS)</h5>
                 <data value="80">80%</data>
               </div>
@@ -463,19 +490,6 @@
 
               <div class="skill-progress-bg">
                 <div class="skill-progress-fill" style="width: 60%;"></div>
-              </div>
-
-            </li>
-            
-            <li class="skills-item">
-
-              <div class="title-wrapper">
-                <h5 class="h5">Simulation (Unreal Engine, C++)</h5>
-                <data value="30">30%</data>
-              </div>
-
-              <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 30%;"></div>
               </div>
 
             </li>
@@ -524,10 +538,6 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web Development</button>
-            </li>
-
-            <li class="filter-item">
               <button data-filter-btn>Game</button>
             </li>
             
@@ -560,10 +570,6 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web Development</button>
-              </li>
-
-              <li class="select-item">
                 <button data-select-item>Game</button>
               </li>
               
@@ -581,29 +587,37 @@
 
           <ul class="project-list">
 
-            <!-- 
-            <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
-
+            <li class="project-item active" data-filter-item data-category="game">
+              <a onclick="loadProject('project-1')">
+        
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="E-Shop" loading="lazy">
+                  <img src="./assets/images/project-1.png" alt="Treasure Hunter" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Food E-Shop</h3>
+                <h3 class="project-title">Treasure Hunter</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">Game</p>
 
               </a>
             </li>
-          -->
 
           </ul>
 
         </section>
+
+      </article>
+
+
+      
+      <!--
+        - #PROJECT
+      -->
+
+      <article id="project" class="project" data-page="project">
 
       </article>
 
