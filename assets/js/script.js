@@ -156,6 +156,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 // navigation to project
 function loadProject(fileName) {
+  console.log("test");
   const container = document.getElementById("project");
 
   const xhr = new XMLHttpRequest();
